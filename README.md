@@ -45,3 +45,27 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/75568331-eb03-4b24-9e27-1133118ffb02)
+Success when selling a paperback book
+
+---
+
+![image](https://github.com/user-attachments/assets/a1292c63-c727-408d-b121-a648370498a1)
+Error when attemp to buy more than the available quantity
+
+---
+
+![image](https://github.com/user-attachments/assets/873c82b9-08ca-4795-ba31-77866ddd0205)
+An attempt to buy a book that is not in stock failed after applying the deletion of books that are more than 5 years old.
+
+---
+
+![image](https://github.com/user-attachments/assets/a69d8f5f-57e0-4774-a2d2-898eceab2ceb)
+Successful attempt to buy an e-book
+
+---
+
+![image](https://github.com/user-attachments/assets/82ac7814-91a5-4d00-b32c-9b6d94b0ea23)
+Error when trying to sell a demo book
+
+
