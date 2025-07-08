@@ -1,0 +1,9 @@
+fawry\quantumbookstore\PrintReceiptService.class
+fawry\quantumbookstore\Inventory.class
+fawry\quantumbookstore\QuantumBookstore.class
+fawry\quantumbookstore\EBook.class
+fawry\quantumbookstore\PaperBook.class
+fawry\quantumbookstore\ShippingService.class
+fawry\quantumbookstore\Book.class
+fawry\quantumbookstore\DemoBook.class
+fawry\quantumbookstore\MailService.class
