@@ -48,4 +48,8 @@ public class EBook extends Book {
         return super.toString() + ", fileType = " + fileType + '}';
     }
 
+    @Override
+    public void buy(int quantity , String email) {
+        this.deliver(email);
+    }
 }
