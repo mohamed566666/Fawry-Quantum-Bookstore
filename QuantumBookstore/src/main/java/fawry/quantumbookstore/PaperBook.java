@@ -57,4 +57,10 @@ public class PaperBook extends Book {
     public String toString() {
         return super.toString() + ", stock = " + stock + '}';
     }
+
+    @Override
+    public void buy(int quantity, String address) {
+        this.deliver(address);
+        this.setStock(this.getStock() - quantity);
+    }
 }
