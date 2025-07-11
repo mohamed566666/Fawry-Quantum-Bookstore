@@ -82,6 +82,8 @@ public abstract class Book {
     }
 
     public abstract void deliver(String method);
+    
+    public abstract void buy(int quantity , String method);
 
     public abstract boolean isAvailable(int quantity);
 
