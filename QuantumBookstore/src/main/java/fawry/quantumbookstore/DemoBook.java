@@ -28,4 +28,9 @@ public class DemoBook extends Book {
     public String toString() {
         return super.toString() + " [Demo Version]";
     }
+
+    @Override
+    public void buy(int quantity, String method) {
+        throw new UnsupportedOperationException("DemoBook can't be Sold");
+    }
 }
