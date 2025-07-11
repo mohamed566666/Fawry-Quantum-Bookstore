@@ -59,16 +59,7 @@ public class Inventory {
                 throw new IllegalStateException("This book is not Available with this Quantity");
             }
         }
-        if (book instanceof PaperBook) {
-            PaperBook paperBook = (PaperBook) book;
-            paperBook.decreaseStock(quantity);
-            String address =  methodOfDelivering;
-            paperBook.deliver(address);
-        } else if (book instanceof EBook) {
-            EBook ebook = (EBook) book;
-            String email = methodOfDelivering;
-            ebook.deliver(email);
-        }
+        book.buy(quantity, methodOfDelivering);
         Double totalAmount = quantity * book.getPrice();
         PrintReceiptService.print(quantity, book.getTitle(), totalAmount);
         return totalAmount;
