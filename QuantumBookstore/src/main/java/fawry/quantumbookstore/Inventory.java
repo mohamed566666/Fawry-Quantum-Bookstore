@@ -53,11 +53,7 @@ public class Inventory {
         }
         Book book = books.get(isbn);
         if (!book.isAvailable(quantity)) {
-            if (book instanceof DemoBook) {
-                throw new UnsupportedOperationException("DemoBook can't be sold");
-            } else {
-                throw new IllegalStateException("This book is not Available with this Quantity");
-            }
+            throw new IllegalStateException("This book is not Available with this Quantity");
         }
         book.buy(quantity, methodOfDelivering);
         Double totalAmount = quantity * book.getPrice();
