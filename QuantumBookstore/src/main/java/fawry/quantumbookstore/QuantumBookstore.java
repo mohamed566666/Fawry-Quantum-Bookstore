@@ -23,8 +23,8 @@ public class QuantumBookstore {
         inventory.addBook(book2);
         inventory.buyBook("2", 1, "mg285281@gmail.com");
         
-        Book book3 = new DemoBook("3" , "Math" , "Gauss" , 1835 , null);
-        inventory.addBook(book3);
+//        Book book3 = new DemoBook("3" , "Math" , "Gauss" , 1835 , null);
+//        inventory.addBook(book3);
 //        inventory.buyBook("3", 1, "mg285281@gmail.com"); // Failed , Demo book cannot be sold
     }
 }
